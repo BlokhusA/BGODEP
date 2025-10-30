@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export default async function handler(req, res) {
   try {
     const avinorRes = await fetch("https://flydata.avinor.no/XmlFeed.asp?TimeFrom=1&TimeTo=12&airport=BGO");
